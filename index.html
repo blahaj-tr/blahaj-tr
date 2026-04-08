@@ -1,0 +1,66 @@
+<!--
+  Credits to:
+
+  https://bigrat.monster/ for the embed code
+  https://github.com/adryd325/ for oneko.js
+  https://blahaj.land/ for blahaj.gif
+
+  made by Xargana
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Primary Meta Tags -->
+      <title>blahaj</title>
+      <meta name="theme-color" content="#4b4c51">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta charset="utf-8">
+    <!-- Open Graph -->
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://blahaj.tr/">
+      <meta property="og:image" content="https://blahaj.tr/assets/blahaj.gif">
+      <meta property="og:image:type" content="image/gif">
+    <!-- Twitter -->
+      <meta property="twitter:card" content="summary_large_image">
+      <meta property="twitter:url" content="https://blahaj.tr/">
+      <meta property="twitter:image" content="https://blahaj.tr/assets/blahaj.gif">
+
+    <!-- nice font -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <style>
+      :root {
+        --image-size: 100; /* could be bigger */
+      }
+      body {
+        background-color: #3d3e42;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        min-height: 100vh;
+      }
+      img {
+        width: min(calc(var(--image-size) * 1vw), calc(var(--image-size) * 1vh));
+        height: min(calc(var(--image-size) * 1vw), calc(var(--image-size) * 1vh));
+        object-fit: contain;
+      }
+      h1 {
+        color: rgba(255, 255, 255, 0.801);
+        font-family: 'Comfortaa', cursive;
+      }
+    </style>
+    <picture>
+      <img src="./assets/blahaj.gif" alt="spinny blahaj">
+    </picture>
+      <h1 style="position: absolute; top: 10px; left: 10px;" >this site is a work in progress</h1>
+      <h1>
+      <a href="https://xargana.tr" style="position: absolute; top: 30px; right: 10px; color: rgb(65, 112, 174); font-family: 'Comfortaa', cursive;">xargana.tr</a>
+    </h1>
+    <script src="./oneko.js"></script>
+  </body>
+</html>
