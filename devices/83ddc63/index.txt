@@ -1,0 +1,10 @@
+HPE ProLiant ML10 Gen9 XEON "Saturn" https://blahaj.tr/devices/83ddc63/files/img/2239.JPG
+        Intel Xeon E3-1225 v5 (4) (no smt)
+        1x SKhynix 8GB PC4 2133P https://blahaj.tr/devices/83ddc63/files/img/9326.JPG
+
+        Ubuntu 26.04 LTS
+
+        /dev/sda (SATA1)
+          SEAGATE 1TB HDD https://blahaj.tr/devices/83ddc63/files/img/2873.JPG
+        /dev/sdb (SATA5)
+          TEAM 512GB SSD https://blahaj.tr/devices/83ddc63/files/img/1284.JPG

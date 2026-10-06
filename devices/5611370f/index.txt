@@ -1,0 +1,5 @@
+    Raspberry Pi 3B Rev 1.2 "Mercury"
+        Broadcom BCM2837RIFBG (4) (no smt)
+        1GB LPDDR-900 SDRAM [embedded]
+
+        Debian GNU/Linux 12
